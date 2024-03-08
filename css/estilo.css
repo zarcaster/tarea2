@@ -1,0 +1,48 @@
+.contenedorPrincipal {
+    background-color: white;
+    border-color: green;
+    border-style: solid;
+    border-width: 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedorMediano {
+    background-color: white;    
+    border-style: solid;
+    border-width: 8px;
+    border-color: green;
+    height: 512px;
+    margin: 16px;
+}
+
+.contenedorPequenoA {
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.contenedorPequenoB {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;    
+}
+
+#cajaA {
+    background-color: white;
+    border-style: solid;
+    border-width: 8px;
+    border-color: red;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+}
+
+#cajaB {
+    background-color: white;
+    border-style: solid;
+    border-width: 8px;
+    border-color: red;
+    width: 256px;
+    height: 64px;
+    margin: 8px;
+}
